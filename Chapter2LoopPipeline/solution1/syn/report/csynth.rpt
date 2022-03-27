@@ -1,0 +1,26 @@
+
+
+================================================================
+== Synthesis Summary Report of 'fir'
+================================================================
++ General Information: 
+    * Date:           Sun Mar 27 11:07:20 2022
+    * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
+    * Project:        Chapter2LoopPipeline
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu5p-flva2104-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+    | Modules| Issue|       | Latency | Latency | Iteration|         | Trip |          |      |    |           |           |     |
+    | & Loops| Type | Slack | (cycles)|   (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|     FF    |    LUT    | URAM|
+    +--------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+    |+ fir   |     -|  -1.53|       25|  250.000|         -|       26|     -|        no|     -|   -|  130 (~0%)|  304 (~0%)|    -|
+    | o TDL  |     -|  -7.30|       10|  100.000|         2|        1|    10|       yes|     -|   -|          -|          -|    -|
+    | o MAC  |     -|  -7.30|       11|  110.000|         2|        1|    11|       yes|     -|   -|          -|          -|    -|
+    +--------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+
