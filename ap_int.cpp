@@ -1,7 +1,7 @@
 #include "ap_int.h"
 
 void fir(data_t *y, data_t x){
-	coef_t c[N] ={
+	coef_t c	[N] ={
 		53,0,-91-0-313,500,313,0,-91,0,53};
 		static data_t shift_reg[N];
 		acc_t acc;
