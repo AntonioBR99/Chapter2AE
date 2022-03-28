@@ -22,29 +22,27 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>25</Best-caseLatency>
-<Average-caseLatency>25</Average-caseLatency>
-<Worst-caseLatency>25</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.250 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.250 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.250 us</Worst-caseRealTimeLatency>
-<Interval-min>26</Interval-min>
-<Interval-max>26</Interval-max>
+<Best-caseLatency>44</Best-caseLatency>
+<Average-caseLatency>44</Average-caseLatency>
+<Worst-caseLatency>44</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.440 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.440 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.440 us</Worst-caseRealTimeLatency>
+<Interval-min>45</Interval-min>
+<Interval-max>45</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <TDL>
 <TripCount>10</TripCount>
-<Latency>10</Latency>
-<AbsoluteTimeLatency>100</AbsoluteTimeLatency>
-<PipelineII>1</PipelineII>
-<PipelineDepth>2</PipelineDepth>
+<Latency>20</Latency>
+<AbsoluteTimeLatency>200</AbsoluteTimeLatency>
+<IterationLatency>2</IterationLatency>
 </TDL>
 <MAC>
 <TripCount>11</TripCount>
-<Latency>11</Latency>
-<AbsoluteTimeLatency>110</AbsoluteTimeLatency>
-<PipelineII>1</PipelineII>
-<PipelineDepth>2</PipelineDepth>
+<Latency>22</Latency>
+<AbsoluteTimeLatency>220</AbsoluteTimeLatency>
+<IterationLatency>2</IterationLatency>
 </MAC>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
@@ -53,8 +51,8 @@
 <Resources>
 <BRAM_18K>0</BRAM_18K>
 <DSP>0</DSP>
-<FF>130</FF>
-<LUT>304</LUT>
+<FF>133</FF>
+<LUT>257</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

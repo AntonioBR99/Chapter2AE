@@ -9,7 +9,7 @@ add_files ap_int.cpp
 open_solution "solution1" -flow_target vivado
 set_part {xcvu5p-flva2104-1-e}
 create_clock -period 10 -name default
-#source "./Chapter2LoopPipeline/solution1/directives.tcl"
+source "./Chapter2LoopPipeline/solution1/directives.tcl"
 #csim_design
 csynth_design
 #cosim_design

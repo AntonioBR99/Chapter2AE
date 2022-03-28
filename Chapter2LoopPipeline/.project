@@ -37,6 +37,11 @@
 			<location>/users/ae002/Documentos/Charpter2AE/Chapter2LoopPipeline/.apc/.tb</location>
 		</link>
 		<link>
+			<name>II_2/constraints</name>
+			<type>2</type>
+			<location>/users/ae002/Documentos/Charpter2AE/Chapter2LoopPipeline/II_2/.tcls</location>
+		</link>
+		<link>
 			<name>modificaII/constraints</name>
 			<type>2</type>
 			<location>/users/ae002/Documentos/Charpter2AE/Chapter2LoopPipeline/modificaII/.tcls</location>
@@ -50,6 +55,21 @@
 			<name>source/ap_int.cpp</name>
 			<type>1</type>
 			<location>/users/ae002/Documentos/Charpter2AE/ap_int.cpp</location>
+		</link>
+		<link>
+			<name>II_2/constraints/.xml.directive</name>
+			<type>1</type>
+			<location>/users/ae002/Documentos/Charpter2AE/Chapter2LoopPipeline/II_2/II_2.directive</location>
+		</link>
+		<link>
+			<name>II_2/constraints/directives.tcl</name>
+			<type>1</type>
+			<location>/users/ae002/Documentos/Charpter2AE/Chapter2LoopPipeline/II_2/directives.tcl</location>
+		</link>
+		<link>
+			<name>II_2/constraints/script.tcl</name>
+			<type>1</type>
+			<location>/users/ae002/Documentos/Charpter2AE/Chapter2LoopPipeline/II_2/script.tcl</location>
 		</link>
 		<link>
 			<name>modificaII/constraints/.xml.directive</name>

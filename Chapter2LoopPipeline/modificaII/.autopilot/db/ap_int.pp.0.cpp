@@ -178,7 +178,7 @@ __attribute__((sdx_kernel("fir", 0))) void fir(data_t *y, data_t x){
 
    shift_reg[i] = shift_reg[i-1];
    }
-   shift_reg[0] =x;
+  shift_reg[0] =x;
 
   acc =0;
 

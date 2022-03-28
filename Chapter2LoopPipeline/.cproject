@@ -57,8 +57,6 @@
                                     									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/users/ae002/Documentos/Charpter2AE"/>
-                                    									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
@@ -92,8 +90,6 @@
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/users/ae002/Documentos/Charpter2AE"/>
                                     									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/include"/>
                                     									
@@ -163,7 +159,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding=".apc|.settings|modificaII|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding=".apc|.settings|II_2|modificaII|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
@@ -229,8 +225,6 @@
                                     									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/users/ae002/Documentos/Charpter2AE"/>
-                                    									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
@@ -254,8 +248,6 @@
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/users/ae002/Documentos/Charpter2AE"/>
                                     									
                                     <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2020.2/include"/>
                                     									
@@ -315,7 +307,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding=".apc|.settings|modificaII|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding=".apc|.settings|II_2|modificaII|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				

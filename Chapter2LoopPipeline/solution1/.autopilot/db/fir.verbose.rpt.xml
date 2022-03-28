@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'fir'" level="0">
-<item name = "Date">Sun Mar 27 11:07:20 2022
+<item name = "Date">Mon Mar 28 15:46:25 2022
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">Chapter2LoopPipeline</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">25, 25, 0.250 us, 0.250 us, 26, 26, none</column>
+<column name="">44, 44, 0.440 us, 0.440 us, 45, 45, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,8 +35,8 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- TDL">10, 10, 2, 1, 1, 10, yes</column>
-<column name="- MAC">11, 11, 2, 1, 1, 11, yes</column>
+<column name="- TDL">20, 20, 2, -, -, 10, no</column>
+<column name="- MAC">22, 22, 2, -, -, 11, no</column>
 </table>
 </item>
 </section>
@@ -49,12 +49,12 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
-<column name="Expression">-, -, 0, 119, -</column>
+<column name="Expression">-, -, 0, 111, -</column>
 <column name="FIFO">-, -, -, -, -</column>
 <column name="Instance">-, 0, 0, 40, -</column>
 <column name="Memory">0, -, 74, 8, -</column>
-<column name="Multiplexer">-, -, -, 137, -</column>
-<column name="Register">-, -, 56, -, -</column>
+<column name="Multiplexer">-, -, -, 98, -</column>
+<column name="Register">-, -, 59, -, -</column>
 <specialColumn name="Available SLR">1024, 1737, 600577, 300288, 235</specialColumn>
 <specialColumn name="Utilization SLR (%)">0, 0, ~0, ~0, 0</specialColumn>
 <specialColumn name="Available">2048, 3474, 1201154, 600577, 470</specialColumn>
@@ -65,8 +65,8 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mul_10s_32s_32_1_1_U1">mul_10s_32s_32_1_1, 0, 0, 0, 20, 0</column>
-<column name="mul_32s_7ns_32_1_1_U2">mul_32s_7ns_32_1_1, 0, 0, 0, 20, 0</column>
+<column name="mul_10s_32s_32_1_1_U2">mul_10s_32s_32_1_1, 0, 0, 0, 20, 0</column>
+<column name="mul_32s_7ns_32_1_1_U1">mul_32s_7ns_32_1_1, 0, 0, 0, 20, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -85,44 +85,32 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="acc_3_fu_214_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln10_fu_168_p2">+, 0, 0, 12, 4, 2</column>
-<column name="add_ln17_fu_192_p2">+, 0, 0, 12, 5, 2</column>
+<column name="acc_3_fu_212_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln10_fu_159_p2">+, 0, 0, 12, 4, 2</column>
+<column name="add_ln17_fu_184_p2">+, 0, 0, 12, 5, 2</column>
 <column name="y">+, 0, 0, 39, 32, 32</column>
-<column name="icmp_ln10_fu_162_p2">icmp, 0, 0, 9, 4, 1</column>
-<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
-<column name="ap_enable_pp1">xor, 0, 0, 2, 1, 2</column>
-<column name="ap_enable_reg_pp0_iter1">xor, 0, 0, 2, 2, 1</column>
-<column name="ap_enable_reg_pp1_iter1">xor, 0, 0, 2, 2, 1</column>
+<column name="icmp_ln10_fu_153_p2">icmp, 0, 0, 9, 4, 1</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="acc_reg_150">9, 2, 32, 64</column>
+<column name="acc_reg_137">9, 2, 32, 64</column>
 <column name="ap_NS_fsm">31, 6, 1, 6</column>
-<column name="ap_enable_reg_pp0_iter1">14, 3, 1, 3</column>
-<column name="ap_enable_reg_pp1_iter1">14, 3, 1, 3</column>
-<column name="ap_phi_mux_i_phi_fu_131_p4">9, 2, 4, 8</column>
-<column name="i_1_reg_139">9, 2, 5, 10</column>
-<column name="i_reg_127">9, 2, 4, 8</column>
-<column name="shift_reg_address0">14, 3, 4, 12</column>
-<column name="shift_reg_address1">14, 3, 4, 12</column>
+<column name="i_1_reg_126">9, 2, 5, 10</column>
+<column name="i_reg_115">9, 2, 4, 8</column>
+<column name="shift_reg_address0">26, 5, 4, 20</column>
 <column name="shift_reg_d0">14, 3, 32, 96</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="acc_reg_150">32, 0, 32, 0</column>
-<column name="add_ln10_reg_242">4, 0, 4, 0</column>
+<column name="acc_reg_137">32, 0, 32, 0</column>
+<column name="add_ln10_reg_232">4, 0, 4, 0</column>
+<column name="add_ln17_reg_245">5, 0, 5, 0</column>
 <column name="ap_CS_fsm">5, 0, 5, 0</column>
-<column name="ap_enable_reg_pp0_iter0">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp1_iter0">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp1_iter1">1, 0, 1, 0</column>
-<column name="i_1_reg_139">5, 0, 5, 0</column>
-<column name="i_reg_127">4, 0, 4, 0</column>
-<column name="icmp_ln10_reg_238">1, 0, 1, 0</column>
-<column name="tmp_reg_252">1, 0, 1, 0</column>
+<column name="i_1_reg_126">5, 0, 5, 0</column>
+<column name="i_reg_115">4, 0, 4, 0</column>
+<column name="zext_ln10_reg_224">4, 0, 64, 60</column>
 </table>
 </item>
 </section>

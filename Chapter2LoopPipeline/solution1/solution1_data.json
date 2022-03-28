@@ -53,7 +53,12 @@
   },
   "HlsSolution": {
     "FlowTarget": "vivado",
-    "DirectiveTcl": ["set_directive_top fir -name fir"],
+    "DirectiveTcl": [
+      "set_directive_top fir -name fir",
+      "set_directive_pipeline fir\/TDL -off",
+      "set_directive_pipeline fir\/MAC -off",
+      "set_directive_top fir -name fir"
+    ],
     "ProfileOption": "0",
     "ProfileType": "none",
     "KernelName": "fir"
@@ -64,7 +69,7 @@
     "Uncertainty": "2.7",
     "IsCombinational": "0",
     "II": "x",
-    "Latency": "25"
+    "Latency": "44"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
   "Ipx": {
@@ -219,10 +224,10 @@
       }},
     "Metrics": {"fir": {
         "Latency": {
-          "LatencyBest": "25",
-          "LatencyAvg": "25",
-          "LatencyWorst": "25",
-          "PipelineII": "26",
+          "LatencyBest": "44",
+          "LatencyAvg": "44",
+          "LatencyWorst": "44",
+          "PipelineII": "45",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -235,15 +240,15 @@
           {
             "Name": "TDL",
             "TripCount": "10",
-            "Latency": "10",
-            "PipelineII": "1",
+            "Latency": "20",
+            "PipelineII": "",
             "PipelineDepth": "2"
           },
           {
             "Name": "MAC",
             "TripCount": "11",
-            "Latency": "11",
-            "PipelineII": "1",
+            "Latency": "22",
+            "PipelineII": "",
             "PipelineDepth": "2"
           }
         ],
@@ -254,10 +259,10 @@
           "DSP": "0",
           "AVAIL_DSP": "3474",
           "UTIL_DSP": "0",
-          "FF": "130",
+          "FF": "133",
           "AVAIL_FF": "1201154",
           "UTIL_FF": "~0",
-          "LUT": "304",
+          "LUT": "257",
           "AVAIL_LUT": "600577",
           "UTIL_LUT": "~0",
           "URAM": "0",
@@ -269,7 +274,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2022-03-27 11:07:24 CEST",
+    "Time": "2022-03-28 15:46:30 CEST",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

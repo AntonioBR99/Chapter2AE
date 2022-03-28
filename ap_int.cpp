@@ -10,7 +10,7 @@ void fir(data_t *y, data_t x){
 		TDL: for(i=N-1;i>0;i--){
 			shift_reg[i] = shift_reg[i-1];
 			}
-			shift_reg[0] =x;
+		shift_reg[0] =x;
 			
 		acc =0;
 		

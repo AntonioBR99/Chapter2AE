@@ -1,5 +1,5 @@
-fir_mul_10s_32s_32_1_1
 fir_mul_32s_7ns_32_1_1
+fir_mul_10s_32s_32_1_1
 fir_shift_reg
 fir_c
 fir
